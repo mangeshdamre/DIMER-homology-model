@@ -66,9 +66,9 @@ Make sure ligand is at the end of each chain before **TER** in the template PDB 
 ```sh
 mod9.17 model-dimer.py
 ```
-( OR  for higher version of modeller
+OR  for higher version of modeller
 ```sh
 mod9.18 model-dimer.py
 ```
-)
+
 That's all. You are ready to analyze models.
