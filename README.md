@@ -3,8 +3,9 @@ How to use MODELLER to build DIMER homology model with ligand?
 
 ## Procedure:
 - Get Fasta sequence from UNIPROT database.
-- Predict sequence alignment from HHPRED
-- Prepare INPUT files for MODELLER
+- Predict sequence alignment from HHPRED (**<a href="https://toolkit.tuebingen.mpg.de/tools/hhpred" target="_blank">HHpred</a>**)
+- Install modeller (**<a href="https://salilab.org/modeller/download_installation.html" target="_blank">Download & Installation</a>**)
+- Prepare INPUT files for MODELLER as below:
 
 Use the following code: (**<a href="https://github.com/mangeshdamre/DIMER-homology-model/blob/main/model-dimer.py" target="_blank">model-dimer.py</a>**)
 ```ruby
