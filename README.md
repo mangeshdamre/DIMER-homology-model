@@ -61,7 +61,7 @@ EI--ALNHLAQGG.*
 In the alignment file dot **( . )** represents the ligand and slash **( / )** represents the chain break.
 
 ## Precautions to be taken:
-Make sure ligand is at the end of each chain before **TER** in the template PDB (here 1bdm.pdb) and delete all other molecules (for example: Water).
+Make sure ligand is at the end of each chain before **TER** in the template PDB (here **<a href="https://www.rcsb.org/structure/1bdm" target="_blank">1bdm.pdb</a>**) and delete all other molecules (for example: *Water*).
 - Execute modeller in the linux terminal
 ```sh
 mod9.17 model-dimer.py
