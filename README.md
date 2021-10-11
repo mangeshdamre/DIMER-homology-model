@@ -6,7 +6,7 @@ How to use MODELLER to build DIMER homology model with ligand?
 - Predict sequence alignment from HHPRED
 - Prepare INPUT files for MODELLER
 
-Use the following code:
+Use the following code: (**<a href="https://github.com/mangeshdamre/DIMER-homology-model/blob/main/model-dimer.py" target="_blank">model-dimer.py</a>**)
 ```ruby
 from modeller import *
 from modeller.automodel import *
@@ -26,7 +26,7 @@ a.final_malign3d = True
 a.make()
 ```
 
-Use the following alignment (Alignment taken from SALI LAB):
+Use the following alignment (Alignment taken from SALI LAB): (**<a href="https://github.com/mangeshdamre/DIMER-homology-model/blob/main/TvLDH-1bdm.ali" target="_blank">TvLDH-1bdm.ali</a>**)
 ```ruby
 >P1;1bdm
 structureX:1bdm.pdb: 0: A: 333: B:undefined:undefined:-1.00:-1.00
