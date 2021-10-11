@@ -57,3 +57,17 @@ TQATFTKEGKTQKVVDVLDHDYVFDTFFKKIGHRAWDILEHRGFTSAASPTKAAIQHMKAWLFGT
 APGEVLSMGIPVPEGNPYGIKPGVVFSFPCNVDKEGKIHVVEGFKVNDWLREKLDFTEKDLFHEK
 EI--ALNHLAQGG.*
 ```
+
+In the alignment file dot **( . )** represents the ligand and slash **( / )** represents the chain break.
+
+## Precautions to be taken:
+Make sure ligand is at the end of each chain before **TER** in the template PDB (here 1bdm.pdb) and delete all other molecules (for example: Water).
+- Execute modeller in the linux terminal
+```sh
+mod9.17 model-dimer.py
+```
+( OR  for higher version of modeller
+```sh
+mod9.18 model-dimer.py
+```)
+That's all. You are ready to analyze models.
