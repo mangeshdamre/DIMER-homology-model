@@ -69,5 +69,6 @@ mod9.17 model-dimer.py
 ( OR  for higher version of modeller
 ```sh
 mod9.18 model-dimer.py
-```)
+```
+)
 That's all. You are ready to analyze models.
